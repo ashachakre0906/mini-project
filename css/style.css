@@ -1,0 +1,22 @@
+.row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns:
+    repeat(12. 1fr) ;
+}
+.linear-gradients-backgroung{
+    background-image: linear-gradient(rgba(232, 102,236,0.3) 0%
+    rgba(232, 102,236, 0.6)100%
+    );
+}
+    
+
